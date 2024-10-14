@@ -39,6 +39,7 @@ ul {
   top: 100%;
   text-align: center;
   border: 1px solid;
+  margin-left: -1px;
 }
 .dropdownContent a {
   display: block;
