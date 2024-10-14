@@ -1,0 +1,8 @@
+.character-card {
+    border: 1px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    
+}

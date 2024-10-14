@@ -1,0 +1,27 @@
+.pokemon-game-picture {
+  height: 150px;
+  width: 150px;
+  transition: 0.2s ease-out;
+  transition-timing-function: linear;
+}
+.pokemon-game-picture:hover {
+  height: 160px;
+  width: 160px;
+}
+.pokemonNav {
+  margin-left: 10%;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: 100;
+
+}
+p {
+    color: white;
+    
+}

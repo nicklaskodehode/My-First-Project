@@ -1,0 +1,187 @@
+body{
+  background-color: rgb(45, 45, 45);
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+footer {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  color: white;
+
+}
+h3 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  height: 50px;
+  width: 100%;
+  align-content: center;
+}
+li {
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+#nav{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.title {
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.navbarDropdown {
+  position: relative;
+ 
+  display: inline-block;
+}
+.navbarContainer{
+  right: 0;
+  position: absolute;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+.dropdownButton {
+  width: 150px;
+  height: 50px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  align-content: space-around;
+  font-size: 20px;
+  color: white;
+}
+.dropdownButton:hover {
+  background-color: rgb(255, 50, 50);
+  transition: background-color 0.25s linear;
+}
+.dropdownContent {
+  display:none;
+  position: absolute;
+  z-index: 1;
+  text-decoration: none;
+  top: 100%;
+  text-align: center;
+  border: 1px solid;
+}
+.dropdownContent a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid gray;
+  align-content: space-around;
+
+}
+.dropdownContent a:hover{
+  background-color: rgb(255, 50, 50);
+  color: white;
+}
+.navbarDropdown:hover .dropdownContent {
+  display: block;
+}
+.flexbox-container {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  align-items: center;
+}
+.categoryButton {
+  height: 175px;
+  width: 175px;
+  border: 0;
+  box-shadow: 0 2px 2px 2px gray;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 30px;
+  transition: 0.2s ease-out;
+  transition-timing-function: linear;
+}
+.categoryButton:hover {
+  height: 185px;
+  width: 185px;
+}
+.contactForm{
+  width: 100%;
+
+}
+.input-text{
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  & input{
+    height: 25px;
+    border-radius: 4px;
+    border: 1px red solid; 
+  }
+}
+.selections{
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+}
+.dateinput{
+  width: 15% !important;
+}
+label{
+  font-size: 17px;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submitbtn{
+  background-color: rgb(255, 50, 50);
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 4px;
+  cursor:pointer;
+}
+textarea{
+  font-family:Arial, Helvetica, sans-serif;
+}
+input[type="date"]{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mario{
+  position: relative;
+  animation: marioRun 4s infinite  normal ease-in-out;
+}
+@keyframes marioRun {
+  0% {
+    left:0px;
+}
+50% {
+    left:10%;
+    animation-delay: 2s;
+}
+75%{
+  animation-delay: 2s;
+  transform: rotateY(180deg);
+}
+100%{
+  left: 0px;
+  animation-delay: 2s;
+}
+}

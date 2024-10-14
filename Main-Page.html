@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Front-Page.css" />
+    <link
+      rel="shortcut icon"
+      href="/Pictures/Controller-Icon.ico"
+      type="image/x-icon"
+    />
+    <title>Video Games</title>
+  </head>
+  <body>
+    <div id="nav">
+      <h1><a class="title" href="Main-Page.html">Video Games</a></h1>
+      <div id="mario">
+        <img
+          src="/Pictures/2d-mario-running.gif"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <div class="navbarContainer">
+        <div class="navbarDropdown">
+          <a href="#" class="dropdownButton">Games</a>
+          <div class="dropdownContent">
+            <a href="/Pokemon-Page/Pokemon-Page.html" target="myIframe">Pokemon</a>
+            <a href="#" target="myIframe">Minecraft</a>
+            <a href="/Genshin-Impact-Page/Genshin-Impact-Character-Page.html" target="myIframe"
+              >Genshin Impact</a
+            >
+            <a href="#" target="myIframe">Super Mario</a>
+          </div>
+        </div>
+        <div class="navbarDropdown">
+          <a href="#" class="dropdownButton">Gaming news</a>
+        </div>
+        <div class="navbarDropdown">
+          <a href="#" class="dropdownButton">About me</a>
+          <div class="dropdownContent">
+            <a href="#" target="myIframe">News</a>
+            <a href="#" target="myIframe">History</a>
+            <a href="About-Me/About-me-career.html" target="myIframe">Career</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <iframe src="Front-Page.html" style=" width: 100%;height: 500px;" frameborder="0" name="myIframe"></iframe>
+      
+    <footer>
+      <h3>Contact</h3>
+      <div class="contactForm">
+        <form class="input-text" method="post">
+          <label for="firstname"
+            >Firstname<br />
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Firstname"
+              required
+            />
+          </label>
+
+          <label for="lastname"
+            >Lastname<br />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Lastname"
+              required
+            />
+          </label>
+          <label for="email"
+            >Email<br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </label>
+
+          <label for="color">Pick a color</label>
+          <select class="selections" name="color" id="color">
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+          </select>
+          <label for="birthday">Select your birthday</label>
+          <input class="dateinput" type="date" id="birthday" name="birthday" />
+
+          <label for="country">Your country</label>
+          <input list="countrylist" name="country" id="country" />
+          <datalist id="countrylist">
+            <option value="Danmark"></option>
+            <option value="Norge"></option>
+            <option value="Sverige"></option>
+            <option value="Finland"></option>
+          </datalist>
+          
+          <label for="comment">Write your comment</label>
+          <textarea
+            id="comment"
+            placeholder="Write your comment here"
+            rows="10"
+            cols="50"
+            required
+          ></textarea>
+          <br />
+          <button class="submitbtn" type="submit">Submit</button>
+        </form>
+      </div>
+      <br />
+      <div>
+        <address>Norway Street 12, 1010 Norway</address>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestiae
+          ea numquam illum consequuntur. Odio quis tempore quam molestias
+          reiciendis! Aut fuga, alias beatae facilis vitae repellat sapiente
+          illo eos. Ex, qui? Eligendi earum sequi numquam, voluptatem non odit
+          illum, nesciunt rerum minus ratione repudiandae ipsum accusantium
+          nobis inventore maxime atque possimus cumque aliquid, dignissimos ipsa
+          aut placeat necessitatibus! Quasi.
+        </p>
+      </div>
+    </footer>
+  </body>
+
