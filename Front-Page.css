@@ -113,12 +113,10 @@ ul {
   transition-timing-function: linear;
 }
 .categoryButton:hover {
-  height: 185px;
-  width: 185px;
+transform: scale(1.07);
 }
 .contactForm{
   width: 100%;
-
 }
 .input-text{
   color: white;
